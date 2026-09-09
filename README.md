@@ -4,6 +4,13 @@ Published, corpus-derived negotiation **playbooks** in the
 [Open Playbook Format (OPF)](https://github.com/contract-opf/playbook-engine),
 as pedagogical examples of the format.
 
+> **Not legal advice.** These playbooks encode one organization's negotiating
+> positions for reference. Reading, adapting, or executing one creates no
+> attorney-client relationship, and any output must be reviewed and approved by
+> a qualified attorney. See **[PLAYBOOK-POLICY.md](PLAYBOOK-POLICY.md)** for the
+> full notice, the metadata every playbook carries, and the contribution review
+> policy.
+
 ## Educational Affiliation Agreement — Negotiation Playbook (OPF 0.3)
 
 A real, corpus-derived playbook compiled by `playbook-engine` from 44 real
