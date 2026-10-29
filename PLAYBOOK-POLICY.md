@@ -1,6 +1,7 @@
 # Playbook publication policy
 
-Approved by the General Counsel, 8 September 2026.
+First adopted 8 September 2026. Approved by the General Counsel, as
+amended (Part 4.4), 28 October 2026.
 
 Every playbook published in this repository carries the notice in Part 1 and
 the metadata in Part 2. Contributions are reviewed against Part 4.
@@ -89,9 +90,11 @@ See the [CC BY 4.0 legal code](https://creativecommons.org/licenses/by/4.0/legal
 2. **Schema validity** — the playbook validates against the published format.
    Mechanical.
 3. **Notice present** — the Part 1 notice is carried, unmodified.
-4. **No confidential or identifying content** — no counterparty names, no
-   executed-agreement text, no material that looks extracted from a specific
-   negotiation rather than generalized from one.
+4. **No confidential or identifying content** — nothing that identifies a
+   counterparty, directly or in combination: no counterparty names, people,
+   addresses, contact details, or institution-specific names. Verbatim
+   precedent from the publisher's own executed agreements is permitted once it
+   has been de-identified so that no counterparty can be identified from it.
 5. **Not held out as advice** — the contribution's own framing does not
    contradict Part 1.
 
