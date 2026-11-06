@@ -38297,7 +38297,7 @@
         "moved": true,
         "refused_asks": [
           {
-            "text": "attn dr clayton hess president",
+            "text": "[redacted: notice-block contact line]",
             "round": 1,
             "ref": {
               "document_id": "deal-32",
@@ -83076,9 +83076,9 @@
   },
   "identity": {
     "supersedes": "sha256:0197ca7becbd4e46734b546a004ad1359efb8654a59c234e867e5a0da4f95792",
-    "content_hash": "sha256:df8436cdb5157dadb1150ae1cef2f8511674c1caf71ed534832232f135b0f91d",
+    "content_hash": "sha256:45923e143fb8a275521bff77addf31eeb1ff4395f2acb67f9e4bb9f5758c4249",
     "section_digests": {
-      "evidence": "sha256:ad3bc0b90ccd05a11073d4365ea8d4515721ae12ab4d13741383006d3e18503f",
+      "evidence": "sha256:86d2c5b8cec7941d4f33bee952f163932f3a765b9efefbc270b7a88adbe207d5",
       "posture": "sha256:44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
       "floor": "sha256:44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
     }
