@@ -46,9 +46,9 @@ publication.
 | **Intended user** | The **host facility** (the side that places students on site) reviewing a school's draft or defending its own form. The positions are directional: read from the school's side, they invert. |
 | **Jurisdictional scope** | United States only, with no single governing law. The counterparties are public and private institutions in many states, and most deals that carry a governing-law clause (14 of 17) apply the institution's own state's law. Several public institutions also carry their state's immunities and public-records statutes. Not written for any non-US jurisdiction. |
 | **Current as of** | May 2026, the latest signing date in the corpus (deals signed May 2023 to May 2026) |
-| **Last reviewed** | 28 October 2026, by the General Counsel of the originating organization |
+| **Last reviewed** | 28 October 2026, by the General Counsel of the originating organization (the previous compile). The 6 November 2026 recompile follows the same de-identification rules and has not yet had its own review. |
 | **Version and change history** | See [Changes](#changes) below |
-| **Source** | Derived from a corpus by `playbook-engine` 1.0.1 (OPF 0.6, `digest_version` 5), not authored by hand. The corpus is private and is not included. |
+| **Source** | Derived from a corpus by `playbook-engine` 2.0.0 (OPF 0.6, `digest_version` 5), not authored by hand. The corpus is private and is not included. |
 | **License** | [CC BY 4.0](LICENSE) (see PLAYBOOK-POLICY.md Part 3) |
 
 **What it is, and is not.** This is an **evidence-only** playbook: the
@@ -92,7 +92,15 @@ artifact this public profile was derived from.
 
 ## Changes
 
-- **OPF 0.6** (this version). Recompiled from the current corpus by engine
+- **OPF 0.6, engine 2.0.0** (6 November 2026, this version). Recompiled from the
+  same corpus by engine 2.0.0, which is still OPF 0.6. Changes you can see in
+  the data: a refused ask is the counterparty's own words, not a token stream; a
+  text joined from several clauses cites all of them; a deal whose executed copy
+  is an amendment or a cover sheet over incorporated terms records absence as
+  unverifiable instead of "verified absent" and makes no "struck before signing"
+  claim; whole-number scores are written as integers. Counts differ from the
+  earlier compile accordingly.
+- **OPF 0.6, engine 1.0.1** (28 October 2026). Recompiled from the current corpus by engine
   1.0.1 in the 0.6 format: a verdict-free precedent record per deal and
   clause, with no stance, band or risk verdicts. Each record shows what the
   deal opened with, what it signed and the asks refused before signing. Other
