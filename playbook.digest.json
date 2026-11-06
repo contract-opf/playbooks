@@ -80,11 +80,7 @@
           "ref": {
             "document_id": "deal-14",
             "version": 2,
-            "clause_path": "5.6",
-            "char_span": [
-              4268,
-              4637
-            ]
+            "clause_path": "5.6, 6.7"
           },
           "precedent_ids": [
             "prec.13c990d280b3574f",
@@ -139,11 +135,7 @@
           "ref": {
             "document_id": "deal-21",
             "version": 1,
-            "clause_path": "5.6",
-            "char_span": [
-              3365,
-              3743
-            ]
+            "clause_path": "5.6, 6.7, 6.8"
           },
           "precedent_ids": [
             "prec.eb8f4bca77e06bb0"
@@ -153,15 +145,9 @@
       "n_variants_total": 9,
       "n_refused_total": 2,
       "n_changed_openings_total": 4,
-      "n_signed_without_verified": 2,
-      "n_signed_without_possible": 19,
-      "verified_absent_deals": [
-        {
-          "document_id": "deal-31",
-          "signed_on": "2025-04",
-          "absence_id": "abs.5a0f4cc5ce4abfd7"
-        }
-      ]
+      "n_signed_without_verified": 0,
+      "n_signed_without_possible": 21,
+      "verified_absent_deals": []
     },
     {
       "id": "clause.amendments",
@@ -184,87 +170,14 @@
           ]
         }
       },
-      "n_deals": 43,
+      "n_deals": 42,
       "first_signed": "2023-05",
       "last_signed": "2026-05",
       "n_signed_standard": 3,
-      "n_opened_standard": 1,
-      "n_kept_standard": 1,
+      "n_opened_standard": 0,
+      "n_kept_standard": 0,
       "standard_history": {
-        "forms": [
-          {
-            "form": "reconstructed 2024-04 to 2026-05",
-            "basis": "reconstructed",
-            "in_use_from": "2024-04",
-            "in_use_until": "2026-05",
-            "in_use_basis": "deal_dates",
-            "n_opened": 5,
-            "n_kept": 3,
-            "n_conceded": 2,
-            "n_moved_to_current": 0,
-            "unchanged": false,
-            "label": "equivalent",
-            "part_map": [
-              "="
-            ],
-            "additions": [
-              "0"
-            ],
-            "reason": "The candidate keeps the rule voiding Additional Terms that conflict with Sections 7-10 and only notes there are none.",
-            "settled": "agreed",
-            "parts": [
-              {
-                "part_id": "e63d52b3",
-                "text": "Additional Terms\nNone.\nAny Additional Terms that conflict with any provision of Sections 7–10 (inclusive) of the Terms is void."
-              }
-            ],
-            "ref": {
-              "document_id": "deal-07",
-              "version": 1,
-              "clause_path": "6",
-              "char_span": [
-                2169,
-                2296
-              ]
-            }
-          },
-          {
-            "form": "reconstructed 2024-06 to 2026-05",
-            "basis": "reconstructed",
-            "in_use_from": "2024-06",
-            "in_use_until": "2026-05",
-            "in_use_basis": "deal_dates",
-            "n_opened": 3,
-            "n_kept": 2,
-            "n_conceded": 1,
-            "n_moved_to_current": 0,
-            "unchanged": false,
-            "label": "equivalent",
-            "part_map": [
-              "="
-            ],
-            "additions": [
-              "0"
-            ],
-            "reason": "Same effect: conflicting Additional Terms remain void, with only a standard mutual written-amendment requirement added.",
-            "settled": "agreed",
-            "parts": [
-              {
-                "part_id": "c26805dc",
-                "text": "Any Additional Terms that conflict with any provision of Sections 7-10 (inclusive) of the Terms is void.\nIt may be changed only by a written amendment signed by both parties either manually or via a third party e-sign platform."
-              }
-            ],
-            "ref": {
-              "document_id": "deal-20",
-              "version": 2,
-              "clause_path": "20",
-              "char_span": [
-                7403,
-                7507
-              ]
-            }
-          }
-        ],
+        "forms": [],
         "why_changed": null
       },
       "positions": {
@@ -328,30 +241,31 @@
       ],
       "refused_asks": [
         {
-          "text": "AMENDMENTS AND MODIFICATIONS. This Agreement may be changed at any time with the prior written approval of the parties. Such amendments or modifications shall be written, signed by the parties and made a part of this Agreement.",
-          "n_deals": 1,
-          "first_signed": "2024-07",
+          "text": "Additional Terms\nNone.\nAny Additional Terms that conflict with any provision of Sections 7–10 (inclusive) of the Terms is void.",
+          "n_deals": 2,
+          "first_signed": "2024-06",
           "last_signed": "2024-07",
-          "label": "different_concept",
+          "label": "equivalent",
           "part_map": [
-            "x-"
+            "="
           ],
           "additions": [
             "0"
           ],
-          "reason": "The candidate is a mutual written-amendment requirement and omits the rule voiding Additional Terms that conflict with Sections 7-10.",
+          "reason": "The candidate keeps the rule voiding Additional Terms that conflict with Sections 7-10 and only notes there are none.",
           "settled": "agreed",
           "ref": {
             "document_id": "deal-07",
-            "version": 2,
-            "clause_path": "12",
+            "version": 1,
+            "clause_path": "6",
             "char_span": [
-              16810,
-              17037
+              2169,
+              2296
             ]
           },
           "precedent_ids": [
-            "prec.a105c1c22850e119"
+            "prec.a105c1c22850e119",
+            "prec.cc5a11c5b299112c"
           ]
         }
       ],
@@ -387,16 +301,10 @@
       ],
       "n_variants_total": 10,
       "n_refused_total": 4,
-      "n_changed_openings_total": 4,
-      "n_signed_without_verified": 1,
-      "n_signed_without_possible": 3,
-      "verified_absent_deals": [
-        {
-          "document_id": "deal-41",
-          "signed_on": "2025-05",
-          "absence_id": "abs.5da98a65018dcde1"
-        }
-      ]
+      "n_changed_openings_total": 3,
+      "n_signed_without_verified": 0,
+      "n_signed_without_possible": 4,
+      "verified_absent_deals": []
     },
     {
       "id": "clause.assignment",
@@ -419,7 +327,7 @@
           ]
         }
       },
-      "n_deals": 32,
+      "n_deals": 31,
       "first_signed": "2023-05",
       "last_signed": "2026-05",
       "n_signed_standard": 8,
@@ -522,43 +430,35 @@
       ],
       "changed_openings": [
         {
-          "text": "9. Assignment to Operating Entity. Facilities are operated by various Exos affiliates that are under common control with Exos.",
+          "text": "Exos may place Students at one of its Affiliate’s facilities.",
           "n_deals": 1,
           "n_to_standard": 0,
           "n_struck": 0,
-          "label": "equivalent",
+          "label": "more_protective",
           "part_map": [
-            "="
+            "+"
           ],
-          "additions": [],
-          "reason": "The candidate automatically assigns the agreement per student to the affiliate operating the placement facility and binds that affiliate, with the same effect as our standard.",
+          "additions": [
+            "0"
+          ],
+          "reason": "The affiliate assignment goes further than ours by making the placing affiliate the sole counterparty and releasing the other Exos entities.",
           "settled": "agreed",
           "ref": {
-            "document_id": "deal-31",
+            "document_id": "deal-37",
             "version": 1,
-            "clause_path": "22",
-            "char_span": [
-              12029,
-              12856
-            ]
+            "clause_path": "5.4.s1, 18"
           },
           "precedent_ids": [
-            "prec.56faff6118f0d5fd"
+            "prec.f91451cc92d412c8"
           ]
         }
       ],
       "n_variants_total": 4,
-      "n_refused_total": 4,
-      "n_changed_openings_total": 2,
-      "n_signed_without_verified": 1,
-      "n_signed_without_possible": 11,
-      "verified_absent_deals": [
-        {
-          "document_id": "deal-38",
-          "signed_on": "2025-12",
-          "absence_id": "abs.0e80e8924ef86553"
-        }
-      ]
+      "n_refused_total": 3,
+      "n_changed_openings_total": 1,
+      "n_signed_without_verified": 0,
+      "n_signed_without_possible": 12,
+      "verified_absent_deals": []
     },
     {
       "id": "clause.background_checks",
@@ -581,7 +481,7 @@
           ]
         }
       },
-      "n_deals": 31,
+      "n_deals": 30,
       "first_signed": "2023-05",
       "last_signed": "2026-05",
       "n_signed_standard": 0,
@@ -658,14 +558,14 @@
             }
           },
           {
-            "form": "reconstructed 2024-06 to 2026-05",
+            "form": "reconstructed 2024-06 to 2026-02",
             "basis": "reconstructed",
             "in_use_from": "2024-06",
-            "in_use_until": "2026-05",
+            "in_use_until": "2026-02",
             "in_use_basis": "deal_dates",
-            "n_opened": 6,
+            "n_opened": 5,
             "n_kept": 5,
-            "n_conceded": 1,
+            "n_conceded": 0,
             "n_moved_to_current": 0,
             "unchanged": false,
             "label": "equivalent",
@@ -788,11 +688,7 @@
           "ref": {
             "document_id": "deal-02",
             "version": 1,
-            "clause_path": "6",
-            "char_span": [
-              3758,
-              4182
-            ]
+            "clause_path": "6, 28"
           },
           "precedent_ids": [
             "prec.9e9d427b28df84b9"
@@ -802,22 +698,16 @@
       "n_variants_total": 9,
       "n_refused_total": 3,
       "n_changed_openings_total": 1,
-      "n_signed_without_verified": 2,
-      "n_signed_without_possible": 11,
-      "verified_absent_deals": [
-        {
-          "document_id": "deal-31",
-          "signed_on": "2025-04",
-          "absence_id": "abs.b3c16d266dd16ec1"
-        }
-      ]
+      "n_signed_without_verified": 0,
+      "n_signed_without_possible": 13,
+      "verified_absent_deals": []
     },
     {
       "id": "clause.compliance_with_laws",
       "taxonomy_id": "compliance_with_laws",
       "title": "Compliance with Laws & Program Eligibility",
       "our_standard": null,
-      "n_deals": 31,
+      "n_deals": 30,
       "first_signed": "2023-05",
       "last_signed": "2026-02",
       "n_signed_standard": 0,
@@ -852,11 +742,7 @@
           "ref": {
             "document_id": "deal-14",
             "version": 2,
-            "clause_path": "6.8",
-            "char_span": [
-              7278,
-              7624
-            ]
+            "clause_path": "6.8, 7.3"
           },
           "precedent_ids": [
             "prec.1f377e89b44991ce",
@@ -912,11 +798,7 @@
           "ref": {
             "document_id": "deal-01",
             "version": 1,
-            "clause_path": "14",
-            "char_span": [
-              6520,
-              6872
-            ]
+            "clause_path": "14, 21"
           },
           "precedent_ids": [
             "prec.30bfc0a4c52478dc",
@@ -926,16 +808,10 @@
       ],
       "n_variants_total": 8,
       "n_refused_total": 1,
-      "n_changed_openings_total": 6,
-      "n_signed_without_verified": 2,
-      "n_signed_without_possible": 12,
-      "verified_absent_deals": [
-        {
-          "document_id": "deal-31",
-          "signed_on": "2025-04",
-          "absence_id": "abs.6ee297872ef19119"
-        }
-      ]
+      "n_changed_openings_total": 5,
+      "n_signed_without_verified": 0,
+      "n_signed_without_possible": 14,
+      "verified_absent_deals": []
     },
     {
       "id": "clause.confidentiality",
@@ -958,7 +834,7 @@
           "clause_path": "16.1, 16.2"
         }
       },
-      "n_deals": 32,
+      "n_deals": 30,
       "first_signed": "2023-05",
       "last_signed": "2026-05",
       "n_signed_standard": 2,
@@ -997,11 +873,7 @@
             "ref": {
               "document_id": "deal-05",
               "version": 1,
-              "clause_path": "8.7",
-              "char_span": [
-                11683,
-                11827
-              ]
+              "clause_path": "8.7, 20.1, 25.3, 25.4, 25.5, 25.6, 25.7, 25.8, 25.12"
             }
           }
         ],
@@ -1037,11 +909,7 @@
           "ref": {
             "document_id": "deal-32",
             "version": 4,
-            "clause_path": "20.1",
-            "char_span": [
-              19754,
-              20814
-            ]
+            "clause_path": "20.1, 25.3, 25.4, 25.5, 25.6, 25.7, 25.8, 25.12"
           },
           "precedent_ids": [
             "prec.342d6c529d9e46f2",
@@ -1052,29 +920,31 @@
       ],
       "refused_asks": [
         {
-          "text": "2.3.A.3.1. Definition. “ Confidential Information ” means all information obtained by the receiving party related to or provided by the disclosing party or its affiliates, and all information derived therefrom, but excludes information that: (a) is or becomes available to the general public other",
+          "text": "2 CONFIDENTIALITY\n\"Confidential Information\" means all non- p ublic information obtained b y the receivin g part y related to or p rovided by the disclosin g party , excludin g information that: (a ) is or becomes p ublicl y available other than throu g h a breach of duty; (b ) was lawfull y in the",
           "n_deals": 1,
-          "first_signed": "2025-04",
-          "last_signed": "2025-04",
-          "label": "equivalent",
+          "first_signed": "2026-05",
+          "last_signed": "2026-05",
+          "label": "less_protective",
           "part_map": [
-            "=",
-            "x0"
+            "-",
+            "-"
           ],
-          "additions": [],
-          "reason": "Same definition text as ours, without the obligations.",
+          "additions": [
+            "0"
+          ],
+          "reason": "The candidate keeps a mutual definition and compelled-disclosure notice but drops PHI, derived and affiliate information, the use restriction, liability for recipients and destruction on request.",
           "settled": "agreed",
           "ref": {
-            "document_id": "deal-31",
-            "version": 1,
-            "clause_path": "20.1",
+            "document_id": "deal-34",
+            "version": 3,
+            "clause_path": "8",
             "char_span": [
-              7599,
-              8364
+              11185,
+              12232
             ]
           },
           "precedent_ids": [
-            "prec.7548749b56a5b40a"
+            "prec.190e6c2371b62f87"
           ]
         }
       ],
@@ -1097,11 +967,7 @@
           "ref": {
             "document_id": "deal-16",
             "version": 1,
-            "clause_path": "20.1",
-            "char_span": [
-              20429,
-              21469
-            ]
+            "clause_path": "20.1, 26.3, 26.4, 26.5, 26.6, 26.7, 26.8, 26.12"
           },
           "precedent_ids": [
             "prec.fac998728d0eeb6e"
@@ -1109,17 +975,11 @@
         }
       ],
       "n_variants_total": 19,
-      "n_refused_total": 25,
-      "n_changed_openings_total": 10,
-      "n_signed_without_verified": 2,
-      "n_signed_without_possible": 11,
-      "verified_absent_deals": [
-        {
-          "document_id": "deal-31",
-          "signed_on": "2025-04",
-          "absence_id": "abs.3b964e430e62ca40"
-        }
-      ]
+      "n_refused_total": 16,
+      "n_changed_openings_total": 8,
+      "n_signed_without_verified": 0,
+      "n_signed_without_possible": 13,
+      "verified_absent_deals": []
     },
     {
       "id": "clause.data_privacy_security",
@@ -1177,15 +1037,9 @@
       "n_variants_total": 1,
       "n_refused_total": 0,
       "n_changed_openings_total": 0,
-      "n_signed_without_verified": 12,
-      "n_signed_without_possible": 30,
-      "verified_absent_deals": [
-        {
-          "document_id": "deal-25",
-          "signed_on": "2026-05",
-          "absence_id": "abs.f11bbca4b1bf72e5"
-        }
-      ]
+      "n_signed_without_verified": 0,
+      "n_signed_without_possible": 42,
+      "verified_absent_deals": []
     },
     {
       "id": "clause.entire_agreement",
@@ -1246,57 +1100,18 @@
             "ref": {
               "document_id": "deal-05",
               "version": 4,
-              "clause_path": "24",
-              "char_span": [
-                23328,
-                23691
-              ]
+              "clause_path": "24, 27.13"
             }
           },
           {
-            "form": "reconstructed 2024-04 to 2026-05",
-            "basis": "reconstructed",
-            "in_use_from": "2024-04",
-            "in_use_until": "2026-05",
-            "in_use_basis": "deal_dates",
-            "n_opened": 7,
-            "n_kept": 6,
-            "n_conceded": 1,
-            "n_moved_to_current": 0,
-            "unchanged": false,
-            "label": "equivalent",
-            "part_map": [
-              "=",
-              "x0"
-            ],
-            "additions": [],
-            "reason": "Same effect: our entire-understanding statement and exclusion of other terms are kept word for word.",
-            "settled": "agreed",
-            "parts": [
-              {
-                "part_id": "311b45ad",
-                "text": "This agreement and Terms (together, the “Agreement”) are the entire understanding of Exos and Client relating to Programs. No other service agreement, purchase order, online or other terms apply."
-              }
-            ],
-            "ref": {
-              "document_id": "deal-07",
-              "version": 1,
-              "clause_path": "7.s1",
-              "char_span": [
-                2703,
-                2898
-              ]
-            }
-          },
-          {
-            "form": "reconstructed 2024-06 to 2026-05",
+            "form": "reconstructed 2024-06 to 2026-02",
             "basis": "reconstructed",
             "in_use_from": "2024-06",
-            "in_use_until": "2026-05",
+            "in_use_until": "2026-02",
             "in_use_basis": "deal_dates",
-            "n_opened": 5,
+            "n_opened": 4,
             "n_kept": 4,
-            "n_conceded": 1,
+            "n_conceded": 0,
             "n_moved_to_current": 0,
             "unchanged": false,
             "label": "equivalent",
@@ -1316,11 +1131,7 @@
             "ref": {
               "document_id": "deal-06",
               "version": 2,
-              "clause_path": "7.s1",
-              "char_span": [
-                2516,
-                2711
-              ]
+              "clause_path": "7.s1, 20.s4, 20.s6"
             }
           }
         ],
@@ -1356,11 +1167,7 @@
           "ref": {
             "document_id": "deal-12",
             "version": 3,
-            "clause_path": "24",
-            "char_span": [
-              23273,
-              23636
-            ]
+            "clause_path": "24, 26.13"
           },
           "precedent_ids": [
             "prec.047cacd23f63a49b",
@@ -1420,11 +1227,7 @@
           "ref": {
             "document_id": "deal-01",
             "version": 1,
-            "clause_path": "53",
-            "char_span": [
-              22846,
-              23212
-            ]
+            "clause_path": "53, 62.r1"
           },
           "precedent_ids": [
             "prec.6272882478056a0f",
@@ -1433,17 +1236,11 @@
         }
       ],
       "n_variants_total": 13,
-      "n_refused_total": 7,
+      "n_refused_total": 5,
       "n_changed_openings_total": 4,
-      "n_signed_without_verified": 1,
-      "n_signed_without_possible": 1,
-      "verified_absent_deals": [
-        {
-          "document_id": "deal-27",
-          "signed_on": "2025-02",
-          "absence_id": "abs.699c4c17c4c965a4"
-        }
-      ]
+      "n_signed_without_verified": 0,
+      "n_signed_without_possible": 2,
+      "verified_absent_deals": []
     },
     {
       "id": "clause.ferpa_student_records",
@@ -1466,7 +1263,7 @@
           ]
         }
       },
-      "n_deals": 31,
+      "n_deals": 30,
       "first_signed": "2023-05",
       "last_signed": "2026-05",
       "n_signed_standard": 8,
@@ -1533,16 +1330,16 @@
             "parts": [
               {
                 "part_id": "e3233b33",
-                "text": "16.2 Student Records. The Institution and the Facility acknowledge that many student educational records are protected by the Family Educational Rights and Privacy Act (\"FERPA\") and that, generally, student permission must be obtained before releasing specific student data to anyone other than the Institution. The Institution agrees to provide the Facility with guidance with respect to compliance with FERPA."
+                "text": "16.2. Student Records. The Institution and the Facility acknowledge that many student educational records are protected by the Family Educational Rights and Privacy Act (\" FERPA \") and that, generally, student permission must be obtained before releasing specific student data to anyone other than the Institution. The Institution agrees to provide the Facility with guidance with respect to compliance with FERPA."
               }
             ],
             "ref": {
-              "document_id": "deal-22",
-              "version": 4,
+              "document_id": "deal-21",
+              "version": 1,
               "clause_path": "20.2",
               "char_span": [
-                21570,
-                21981
+                21045,
+                21459
               ]
             }
           }
@@ -1651,24 +1448,18 @@
         }
       ],
       "n_variants_total": 6,
-      "n_refused_total": 2,
+      "n_refused_total": 1,
       "n_changed_openings_total": 2,
-      "n_signed_without_verified": 3,
-      "n_signed_without_possible": 10,
-      "verified_absent_deals": [
-        {
-          "document_id": "deal-38",
-          "signed_on": "2025-12",
-          "absence_id": "abs.7f5a69f93dbc11c0"
-        }
-      ]
+      "n_signed_without_verified": 0,
+      "n_signed_without_possible": 13,
+      "verified_absent_deals": []
     },
     {
       "id": "clause.governing_law",
       "taxonomy_id": "governing_law",
       "title": "Governing Law",
       "our_standard": null,
-      "n_deals": 22,
+      "n_deals": 21,
       "first_signed": "2023-05",
       "last_signed": "2025-09",
       "n_signed_standard": 0,
@@ -1703,11 +1494,7 @@
           "ref": {
             "document_id": "deal-12",
             "version": 3,
-            "clause_path": "17",
-            "char_span": [
-              18481,
-              18803
-            ]
+            "clause_path": "17, 26.11"
           },
           "precedent_ids": [
             "prec.18e87a0d42c9a824",
@@ -1759,11 +1546,7 @@
           "ref": {
             "document_id": "deal-09",
             "version": 1,
-            "clause_path": "18",
-            "char_span": [
-              18546,
-              18868
-            ]
+            "clause_path": "18, 38"
           },
           "precedent_ids": [
             "prec.0fd7f99985145fdd",
@@ -1775,8 +1558,8 @@
         }
       ],
       "n_variants_total": 4,
-      "n_refused_total": 7,
-      "n_changed_openings_total": 4,
+      "n_refused_total": 6,
+      "n_changed_openings_total": 3,
       "n_signed_without_verified": 0,
       "n_signed_without_possible": 26,
       "verified_absent_deals": []
@@ -1802,7 +1585,7 @@
           ]
         }
       },
-      "n_deals": 33,
+      "n_deals": 30,
       "first_signed": "2023-05",
       "last_signed": "2026-05",
       "n_signed_standard": 7,
@@ -1840,11 +1623,7 @@
             "ref": {
               "document_id": "deal-05",
               "version": 1,
-              "clause_path": "5.3",
-              "char_span": [
-                2374,
-                2701
-              ]
+              "clause_path": "5.3, 20.3"
             }
           }
         ],
@@ -1880,11 +1659,7 @@
           "ref": {
             "document_id": "deal-14",
             "version": 2,
-            "clause_path": "5.3",
-            "char_span": [
-              2402,
-              2726
-            ]
+            "clause_path": "5.3, 20.3"
           },
           "precedent_ids": [
             "prec.1f0b66a17c3c8851",
@@ -1902,31 +1677,28 @@
       ],
       "refused_asks": [
         {
-          "text": "1.3. Patient Privacy Training. The Institution shall provide Students with instruction in the applicable federal and state laws regarding the use and disclosure of protected health information, including the Health Insurance Portability and Accountability Act (\"HIPAA\"), and rules and regulations",
+          "text": "1 HIPAA\nNeither p art y is a \"business associate\" of the other , as defined within the Health Insurance Portabilit y and Accountabilit y Act of 1996 ( HIPAA ) .",
           "n_deals": 1,
-          "first_signed": "2023-10",
-          "last_signed": "2023-10",
-          "label": "mixed",
+          "first_signed": "2026-05",
+          "last_signed": "2026-05",
+          "label": "less_protective",
           "part_map": [
             "-"
           ],
-          "additions": [
-            "+",
-            "0"
-          ],
-          "reason": "The candidate drops our non-business-associate statement and policy subjection while adding an Institution training duty.",
-          "settled": "agreed",
+          "additions": [],
+          "reason": "The same no-business-associate and limited-PHI-use terms, but students are subject only to our PHI policies instead of all our applicable policies.",
+          "settled": "adjudicated",
           "ref": {
-            "document_id": "deal-16",
-            "version": 6,
-            "clause_path": "7.3",
+            "document_id": "deal-34",
+            "version": 2,
+            "clause_path": "7",
             "char_span": [
-              2803,
-              3409
+              10667,
+              11184
             ]
           },
           "precedent_ids": [
-            "prec.b4780a34353e6553"
+            "prec.2b7d0fb36d9ab87e"
           ]
         }
       ],
@@ -1949,11 +1721,7 @@
           "ref": {
             "document_id": "deal-16",
             "version": 1,
-            "clause_path": "5.3",
-            "char_span": [
-              2367,
-              2696
-            ]
+            "clause_path": "5.3, 20.3"
           },
           "precedent_ids": [
             "prec.b4780a34353e6553"
@@ -1961,24 +1729,18 @@
         }
       ],
       "n_variants_total": 11,
-      "n_refused_total": 9,
-      "n_changed_openings_total": 5,
-      "n_signed_without_verified": 2,
-      "n_signed_without_possible": 11,
-      "verified_absent_deals": [
-        {
-          "document_id": "deal-31",
-          "signed_on": "2025-04",
-          "absence_id": "abs.47129b33498015b4"
-        }
-      ]
+      "n_refused_total": 4,
+      "n_changed_openings_total": 4,
+      "n_signed_without_verified": 0,
+      "n_signed_without_possible": 13,
+      "verified_absent_deals": []
     },
     {
       "id": "clause.indemnification",
       "taxonomy_id": "indemnification",
       "title": "Indemnification",
       "our_standard": null,
-      "n_deals": 25,
+      "n_deals": 24,
       "first_signed": "2023-05",
       "last_signed": "2025-09",
       "n_signed_standard": 0,
@@ -2013,11 +1775,7 @@
           "ref": {
             "document_id": "deal-13",
             "version": 3,
-            "clause_path": "12.1",
-            "char_span": [
-              17031,
-              17176
-            ]
+            "clause_path": "12.1, 12.2"
           },
           "precedent_ids": [
             "prec.00df70f832fd1cdb",
@@ -2072,11 +1830,7 @@
           "ref": {
             "document_id": "deal-05",
             "version": 1,
-            "clause_path": "12.1",
-            "char_span": [
-              17073,
-              17219
-            ]
+            "clause_path": "12.1, 12.2"
           },
           "precedent_ids": [
             "prec.1cf24f9071a87b5a",
@@ -2087,24 +1841,18 @@
         }
       ],
       "n_variants_total": 12,
-      "n_refused_total": 6,
-      "n_changed_openings_total": 9,
-      "n_signed_without_verified": 2,
-      "n_signed_without_possible": 20,
-      "verified_absent_deals": [
-        {
-          "document_id": "deal-31",
-          "signed_on": "2025-04",
-          "absence_id": "abs.d08138458e187d24"
-        }
-      ]
+      "n_refused_total": 4,
+      "n_changed_openings_total": 7,
+      "n_signed_without_verified": 0,
+      "n_signed_without_possible": 22,
+      "verified_absent_deals": []
     },
     {
       "id": "clause.insurance",
       "taxonomy_id": "insurance",
       "title": "Insurance",
       "our_standard": null,
-      "n_deals": 28,
+      "n_deals": 24,
       "first_signed": "2023-05",
       "last_signed": "2026-05",
       "n_signed_standard": 0,
@@ -2139,11 +1887,7 @@
           "ref": {
             "document_id": "deal-12",
             "version": 3,
-            "clause_path": "9.4",
-            "char_span": [
-              10991,
-              11116
-            ]
+            "clause_path": "9.4, 13.1.s1, 14.1"
           },
           "precedent_ids": [
             "prec.0598f630b180e766",
@@ -2196,11 +1940,7 @@
           "ref": {
             "document_id": "deal-05",
             "version": 1,
-            "clause_path": "8.4",
-            "char_span": [
-              11074,
-              11200
-            ]
+            "clause_path": "8.4, 12.1.s1, 13.1"
           },
           "precedent_ids": [
             "prec.0b209bb67d8f794f",
@@ -2212,8 +1952,8 @@
         }
       ],
       "n_variants_total": 17,
-      "n_refused_total": 6,
-      "n_changed_openings_total": 14,
+      "n_refused_total": 4,
+      "n_changed_openings_total": 10,
       "n_signed_without_verified": 0,
       "n_signed_without_possible": 20,
       "verified_absent_deals": []
@@ -2223,9 +1963,9 @@
       "taxonomy_id": "ip_ownership",
       "title": "IP Ownership Assignment",
       "our_standard": null,
-      "n_deals": 22,
+      "n_deals": 21,
       "first_signed": "2023-05",
-      "last_signed": "2025-08",
+      "last_signed": "2024-07",
       "n_signed_standard": 0,
       "n_opened_standard": 0,
       "n_kept_standard": 0,
@@ -2333,14 +2073,14 @@
       ],
       "n_variants_total": 3,
       "n_refused_total": 2,
-      "n_changed_openings_total": 3,
-      "n_signed_without_verified": 22,
-      "n_signed_without_possible": 4,
+      "n_changed_openings_total": 2,
+      "n_signed_without_verified": 10,
+      "n_signed_without_possible": 16,
       "verified_absent_deals": [
         {
-          "document_id": "deal-25",
+          "document_id": "deal-34",
           "signed_on": "2026-05",
-          "absence_id": "abs.5337555e7322d591"
+          "absence_id": "abs.ff01bdbe4796c6fd"
         }
       ]
     },
@@ -2365,7 +2105,7 @@
           ]
         }
       },
-      "n_deals": 13,
+      "n_deals": 11,
       "first_signed": "2023-11",
       "last_signed": "2026-02",
       "n_signed_standard": 6,
@@ -2442,15 +2182,15 @@
       ],
       "changed_openings": [],
       "n_variants_total": 4,
-      "n_refused_total": 6,
+      "n_refused_total": 2,
       "n_changed_openings_total": 0,
-      "n_signed_without_verified": 2,
-      "n_signed_without_possible": 31,
+      "n_signed_without_verified": 18,
+      "n_signed_without_possible": 15,
       "verified_absent_deals": [
         {
-          "document_id": "deal-31",
-          "signed_on": "2025-04",
-          "absence_id": "abs.b8268641145fb7ef"
+          "document_id": "deal-34",
+          "signed_on": "2026-05",
+          "absence_id": "abs.9e3c52996ef58405"
         }
       ]
     },
@@ -2475,7 +2215,7 @@
           ]
         }
       },
-      "n_deals": 33,
+      "n_deals": 30,
       "first_signed": "2023-05",
       "last_signed": "2026-05",
       "n_signed_standard": 7,
@@ -2572,28 +2312,28 @@
       ],
       "refused_asks": [
         {
-          "text": "2.3.A.4. Non-Discrimination. Neither Institution nor Exos shall discriminate against any individual on the basis of race, creed, color, sex, religion, age, disability, national origin, ancestry, military status, pregnancy, sexual orientation or\nany other legally protected class, and shall comply",
+          "text": "3 NON-DISCRIMINATION\nNeither the UNIVERSITY nor the AGENCY shall discriminate a g ainst an y individual on the basis of race , creed, color , sex , reli g ion, a g e, disability , national ori g in, ancestry , militar y status, p re g nancy , sexual orientation , or an y other le g ally p rotected",
           "n_deals": 1,
-          "first_signed": "2025-04",
-          "last_signed": "2025-04",
-          "label": "equivalent",
+          "first_signed": "2026-05",
+          "last_signed": "2026-05",
+          "label": "more_protective",
           "part_map": [
-            "="
+            "+"
           ],
           "additions": [],
-          "reason": "Same as our standard apart from numbering.",
+          "reason": "Keeps the mutual non-discrimination covenant but limits compliance to federal and state law, dropping the institution's policies.",
           "settled": "agreed",
           "ref": {
-            "document_id": "deal-31",
-            "version": 1,
-            "clause_path": "17",
+            "document_id": "deal-34",
+            "version": 2,
+            "clause_path": "9",
             "char_span": [
-              6150,
-              6570
+              12248,
+              12643
             ]
           },
           "precedent_ids": [
-            "prec.1290a233efe0ed52"
+            "prec.0ca4c8814f3a9b18"
           ]
         }
       ],
@@ -2616,11 +2356,7 @@
           "ref": {
             "document_id": "deal-44",
             "version": 1,
-            "clause_path": "11.9",
-            "char_span": [
-              13894,
-              14956
-            ]
+            "clause_path": "11.9, 11.10"
           },
           "precedent_ids": [
             "prec.eba3573c2a4adceb"
@@ -2628,24 +2364,18 @@
         }
       ],
       "n_variants_total": 5,
-      "n_refused_total": 6,
+      "n_refused_total": 3,
       "n_changed_openings_total": 2,
-      "n_signed_without_verified": 12,
-      "n_signed_without_possible": 1,
-      "verified_absent_deals": [
-        {
-          "document_id": "deal-25",
-          "signed_on": "2026-05",
-          "absence_id": "abs.a9fa7209e79092db"
-        }
-      ]
+      "n_signed_without_verified": 0,
+      "n_signed_without_possible": 13,
+      "verified_absent_deals": []
     },
     {
       "id": "clause.notices",
       "taxonomy_id": "notices",
       "title": "Notices",
       "our_standard": null,
-      "n_deals": 31,
+      "n_deals": 29,
       "first_signed": "2023-05",
       "last_signed": "2026-02",
       "n_signed_standard": 0,
@@ -2680,11 +2410,7 @@
           "ref": {
             "document_id": "deal-18",
             "version": 2,
-            "clause_path": "27.s3",
-            "char_span": [
-              10413,
-              10577
-            ]
+            "clause_path": "27.s3, 27.s5"
           },
           "precedent_ids": [
             "prec.2d71ae1f5f07e01d",
@@ -2755,9 +2481,9 @@
       ],
       "n_variants_total": 21,
       "n_refused_total": 6,
-      "n_changed_openings_total": 14,
-      "n_signed_without_verified": 2,
-      "n_signed_without_possible": 13,
+      "n_changed_openings_total": 12,
+      "n_signed_without_verified": 1,
+      "n_signed_without_possible": 14,
       "verified_absent_deals": [
         {
           "document_id": "deal-34",
@@ -2827,11 +2553,7 @@
             "ref": {
               "document_id": "deal-04",
               "version": 3,
-              "clause_path": "2",
-              "char_span": [
-                58,
-                322
-              ]
+              "clause_path": "2, 3.1, 26.1, 26.2"
             }
           }
         ],
@@ -2868,11 +2590,7 @@
           "ref": {
             "document_id": "deal-14",
             "version": 2,
-            "clause_path": "2",
-            "char_span": [
-              58,
-              403
-            ]
+            "clause_path": "2, 3"
           },
           "precedent_ids": [
             "prec.bbe501f6c67fbf96"
@@ -2881,66 +2599,62 @@
       ],
       "refused_asks": [
         {
-          "text": "Facilities locations are specified at: https:// [[redacted]",
+          "text": "This Educational Affiliation Agreement for Student Internships (“Agreement”) is made effective this [\\\\\\] day of [\\\\\\\\], 20[\\\\] (“Effective Date”) by and between EXOS Health Holdings, LLC, together with its affiliates as a signatory hereto (the “Facility”) and [INSERT LEGAL ENTITY NAME OF SCHOOL]",
           "n_deals": 2,
-          "first_signed": "2025-09",
-          "last_signed": "2026-01",
+          "first_signed": "2023-08",
+          "last_signed": "2023-10",
           "label": "equivalent",
           "part_map": [
-            "=",
-            "x0"
+            "x0",
+            "="
           ],
           "additions": [],
-          "reason": "The candidate keeps only the facility-location sentence of the recital, which changes nothing operative.",
+          "reason": "The candidate identifies the parties and an effective date with no change in effect and omits the non-operative recital.",
           "settled": "agreed",
           "ref": {
-            "document_id": "deal-30",
+            "document_id": "deal-33",
             "version": 1,
-            "clause_path": "1.r1",
+            "clause_path": "2",
             "char_span": [
-              652,
-              778
+              58,
+              376
             ]
           },
           "precedent_ids": [
-            "prec.55a92c9a33cb1c9d",
-            "prec.5aee9eb5fab0c004"
+            "prec.99210cad873d1b94",
+            "prec.ce578768688277c1"
           ]
         }
       ],
       "changed_openings": [
         {
-          "text": "BETWEEN\nCounterparty-43, [department]- STRENGTH AND CONDITIONING MAJOR\nAND\nEXOS SPORTS PERFORMANCE\nA. The [department], hereinafter referred to as \"Department.\"\nB. EXOS SPORTS PERFORMANCE of Phoenix, AZ hereinafter referred to as \"The Facility.\"",
+          "text": "Educational Affiliation Agreement for Student Internships\nInstitution (“Institution”) | Address &amp; Email\nOverview\nThe Institution offers educational programs (“  Programs  ”) for students (“  Students  ”) in physical therapy, exercise science, and/or related health fields at various locations",
           "n_deals": 1,
           "n_to_standard": 0,
           "n_struck": 0,
           "label": "equivalent",
           "part_map": [
             "=",
-            "="
+            "x0"
           ],
           "additions": [
             "0"
           ],
-          "reason": "An older-style preamble identifies the parties and describes the internship program, with the same effect as our standard.",
+          "reason": "Same program recital without the locations link, with no parties statement; same effect.",
           "settled": "agreed",
           "ref": {
-            "document_id": "deal-43",
+            "document_id": "deal-35",
             "version": 1,
-            "clause_path": "2",
-            "char_span": [
-              19,
-              306
-            ]
+            "clause_path": "1, 2"
           },
           "precedent_ids": [
-            "prec.3296342ade816fe1"
+            "prec.3bff2cab9c06e4a5"
           ]
         }
       ],
       "n_variants_total": 42,
-      "n_refused_total": 43,
-      "n_changed_openings_total": 25,
+      "n_refused_total": 25,
+      "n_changed_openings_total": 18,
       "n_signed_without_verified": 0,
       "n_signed_without_possible": 0,
       "verified_absent_deals": []
@@ -2950,7 +2664,7 @@
       "taxonomy_id": "program_administration",
       "title": "Program Administration & Host Operational Control",
       "our_standard": null,
-      "n_deals": 33,
+      "n_deals": 30,
       "first_signed": "2023-05",
       "last_signed": "2026-05",
       "n_signed_standard": 0,
@@ -2985,11 +2699,7 @@
           "ref": {
             "document_id": "deal-14",
             "version": 2,
-            "clause_path": "5.1",
-            "char_span": [
-              1410,
-              1917
-            ]
+            "clause_path": "5.1, 5.4, 6.1, 6.2, 6.9, 6.10, 7.2"
           },
           "precedent_ids": [
             "prec.145748030678ed38",
@@ -3005,9 +2715,9 @@
       ],
       "refused_asks": [
         {
-          "text": "1.4. Assigning Students to the Exos’ facilities. After receiving the number of placements available for Students from Exos, the Institution shall submit information about the Students selected to be considered (with the approval of Exos) for the Program.",
-          "n_deals": 2,
-          "first_signed": "2024-03",
+          "text": "1.1. Preparation of Students for Exos Placement.  The Institution shall assure, through qualified faculty, that each Student assigned to an Exos facility, as mutually agreed, is adequately prepared to benefit from such assignment.",
+          "n_deals": 1,
+          "first_signed": "2024-07",
           "last_signed": "2024-07",
           "label": null,
           "part_map": null,
@@ -3017,15 +2727,14 @@
           "ref": {
             "document_id": "deal-07",
             "version": 2,
-            "clause_path": "6.4",
+            "clause_path": "6.1",
             "char_span": [
-              2683,
-              3895
+              1354,
+              1869
             ]
           },
           "precedent_ids": [
-            "prec.5b37eaf0edefd588",
-            "prec.9a4a0aa4d7543bfd"
+            "prec.5b37eaf0edefd588"
           ]
         }
       ],
@@ -3043,11 +2752,7 @@
           "ref": {
             "document_id": "deal-03",
             "version": 1,
-            "clause_path": "5.1",
-            "char_span": [
-              1390,
-              1905
-            ]
+            "clause_path": "5.1, 5.4, 6.1, 6.2, 6.9, 6.10, 7.2"
           },
           "precedent_ids": [
             "prec.07a746d8226f5d78",
@@ -3064,16 +2769,10 @@
       ],
       "n_variants_total": 17,
       "n_refused_total": 8,
-      "n_changed_openings_total": 12,
-      "n_signed_without_verified": 1,
-      "n_signed_without_possible": 12,
-      "verified_absent_deals": [
-        {
-          "document_id": "deal-27",
-          "signed_on": "2025-02",
-          "absence_id": "abs.f72b369fbd71fd34"
-        }
-      ]
+      "n_changed_openings_total": 9,
+      "n_signed_without_verified": 0,
+      "n_signed_without_possible": 13,
+      "verified_absent_deals": []
     },
     {
       "id": "clause.relationship_of_parties",
@@ -3096,7 +2795,7 @@
           ]
         }
       },
-      "n_deals": 32,
+      "n_deals": 30,
       "first_signed": "2023-05",
       "last_signed": "2026-05",
       "n_signed_standard": 0,
@@ -3136,18 +2835,14 @@
             "ref": {
               "document_id": "deal-05",
               "version": 4,
-              "clause_path": "16",
-              "char_span": [
-                18316,
-                18535
-              ]
+              "clause_path": "16, 20, 27.9"
             }
           },
           {
-            "form": "reconstructed 2024-06 to 2026-05",
+            "form": "reconstructed 2024-06 to 2026-02",
             "basis": "reconstructed",
             "in_use_from": "2024-06",
-            "in_use_until": "2026-05",
+            "in_use_until": "2026-02",
             "in_use_basis": "deal_dates",
             "n_opened": 3,
             "n_kept": 3,
@@ -3173,11 +2868,7 @@
             "ref": {
               "document_id": "deal-18",
               "version": 2,
-              "clause_path": "14",
-              "char_span": [
-                3112,
-                3372
-              ]
+              "clause_path": "14, 27, 27.s2"
             }
           }
         ],
@@ -3213,11 +2904,7 @@
           "ref": {
             "document_id": "deal-44",
             "version": 4,
-            "clause_path": "22",
-            "char_span": [
-              11068,
-              11115
-            ]
+            "clause_path": "22, 22.s2"
           },
           "precedent_ids": [
             "prec.4fc92f83b363cc12"
@@ -3226,30 +2913,30 @@
       ],
       "refused_asks": [
         {
-          "text": "10. Miscellaneous. This Agreement is non-exclusive.",
+          "text": "e. Students, while engaged in the internship educational experience, shall retain the status of students working towards the fulfillment of their degree requirements. Students are not employees or agents of Counterparty-65. Students shall not displace regular employees of Site.",
           "n_deals": 1,
-          "first_signed": "2025-04",
-          "last_signed": "2025-04",
-          "label": "different_concept",
+          "first_signed": "2025-09",
+          "last_signed": "2025-09",
+          "label": "less_protective",
           "part_map": [
-            "x-"
+            "-"
           ],
           "additions": [
-            "0"
+            "-"
           ],
-          "reason": "Only states non-exclusivity and says nothing about Students' employment or benefits.",
-          "settled": "agreed",
+          "reason": "Students keep their student status but are disclaimed as employees only of the institution, not of us, with no benefits exclusion, and we take on a duty not to let students displace regular staff.",
+          "settled": "adjudicated",
           "ref": {
-            "document_id": "deal-31",
+            "document_id": "deal-44",
             "version": 1,
-            "clause_path": "23",
+            "clause_path": "5.5",
             "char_span": [
-              12857,
-              12908
+              2981,
+              3247
             ]
           },
           "precedent_ids": [
-            "prec.537e63f2c00f1c09"
+            "prec.4fc92f83b363cc12"
           ]
         }
       ],
@@ -3274,11 +2961,7 @@
           "ref": {
             "document_id": "deal-01",
             "version": 1,
-            "clause_path": "43",
-            "char_span": [
-              17999,
-              18228
-            ]
+            "clause_path": "43, 47, 59"
           },
           "precedent_ids": [
             "prec.55ed55c36d78ea65",
@@ -3287,8 +2970,8 @@
         }
       ],
       "n_variants_total": 11,
-      "n_refused_total": 6,
-      "n_changed_openings_total": 6,
+      "n_refused_total": 3,
+      "n_changed_openings_total": 4,
       "n_signed_without_verified": 0,
       "n_signed_without_possible": 13,
       "verified_absent_deals": []
@@ -3314,11 +2997,11 @@
           ]
         }
       },
-      "n_deals": 30,
+      "n_deals": 29,
       "first_signed": "2023-05",
       "last_signed": "2026-02",
       "n_signed_standard": 7,
-      "n_opened_standard": 5,
+      "n_opened_standard": 4,
       "n_kept_standard": 4,
       "standard_history": {
         "forms": [
@@ -3475,7 +3158,7 @@
       "taxonomy_id": "renewal_term",
       "title": "Renewal / Auto-Renewal",
       "our_standard": null,
-      "n_deals": 31,
+      "n_deals": 29,
       "first_signed": "2023-05",
       "last_signed": "2026-05",
       "n_signed_standard": 0,
@@ -3582,23 +3265,17 @@
       ],
       "n_variants_total": 12,
       "n_refused_total": 3,
-      "n_changed_openings_total": 4,
-      "n_signed_without_verified": 2,
-      "n_signed_without_possible": 14,
-      "verified_absent_deals": [
-        {
-          "document_id": "deal-40",
-          "signed_on": "2025-12",
-          "absence_id": "abs.27db1f851de3a3a3"
-        }
-      ]
+      "n_changed_openings_total": 2,
+      "n_signed_without_verified": 0,
+      "n_signed_without_possible": 16,
+      "verified_absent_deals": []
     },
     {
       "id": "clause.severability",
       "taxonomy_id": "severability",
       "title": "Severability",
       "our_standard": null,
-      "n_deals": 31,
+      "n_deals": 29,
       "first_signed": "2023-05",
       "last_signed": "2026-02",
       "n_signed_standard": 0,
@@ -3633,11 +3310,7 @@
           "ref": {
             "document_id": "deal-14",
             "version": 2,
-            "clause_path": "17",
-            "char_span": [
-              17776,
-              18035
-            ]
+            "clause_path": "17, 22"
           },
           "precedent_ids": [
             "prec.06989080f43fcf89",
@@ -3716,14 +3389,14 @@
       ],
       "n_variants_total": 3,
       "n_refused_total": 1,
-      "n_changed_openings_total": 3,
-      "n_signed_without_verified": 13,
-      "n_signed_without_possible": 1,
+      "n_changed_openings_total": 1,
+      "n_signed_without_verified": 1,
+      "n_signed_without_possible": 13,
       "verified_absent_deals": [
         {
-          "document_id": "deal-25",
+          "document_id": "deal-34",
           "signed_on": "2026-05",
-          "absence_id": "abs.48e22449db153442"
+          "absence_id": "abs.2d0e586f19490ff3"
         }
       ]
     },
@@ -3732,7 +3405,7 @@
       "taxonomy_id": "student_access_and_removal",
       "title": "Student Site Access & Removal",
       "our_standard": null,
-      "n_deals": 23,
+      "n_deals": 22,
       "first_signed": "2023-05",
       "last_signed": "2026-05",
       "n_signed_standard": 0,
@@ -3845,23 +3518,17 @@
       ],
       "n_variants_total": 4,
       "n_refused_total": 1,
-      "n_changed_openings_total": 3,
-      "n_signed_without_verified": 6,
-      "n_signed_without_possible": 26,
-      "verified_absent_deals": [
-        {
-          "document_id": "deal-25",
-          "signed_on": "2026-05",
-          "absence_id": "abs.492a3eeef5c0355b"
-        }
-      ]
+      "n_changed_openings_total": 2,
+      "n_signed_without_verified": 0,
+      "n_signed_without_possible": 32,
+      "verified_absent_deals": []
     },
     {
       "id": "clause.student_health_and_safety",
       "taxonomy_id": "student_health_and_safety",
       "title": "Student Health & Safety",
       "our_standard": null,
-      "n_deals": 24,
+      "n_deals": 23,
       "first_signed": "2023-05",
       "last_signed": "2026-05",
       "n_signed_standard": 0,
@@ -3896,11 +3563,7 @@
           "ref": {
             "document_id": "deal-12",
             "version": 3,
-            "clause_path": "6.2",
-            "char_span": [
-              1842,
-              2325
-            ]
+            "clause_path": "6.2, 10.1, 10.2, 10.3"
           },
           "precedent_ids": [
             "prec.05f3f14497db249e",
@@ -3953,11 +3616,7 @@
           "ref": {
             "document_id": "deal-05",
             "version": 1,
-            "clause_path": "5.2",
-            "char_span": [
-              1889,
-              2373
-            ]
+            "clause_path": "5.2, 9.1, 9.2, 9.3"
           },
           "precedent_ids": [
             "prec.013aae4eee7b1fe6",
@@ -3969,16 +3628,10 @@
       ],
       "n_variants_total": 13,
       "n_refused_total": 6,
-      "n_changed_openings_total": 6,
-      "n_signed_without_verified": 1,
-      "n_signed_without_possible": 20,
-      "verified_absent_deals": [
-        {
-          "document_id": "deal-27",
-          "signed_on": "2025-02",
-          "absence_id": "abs.20a71162e83c44ba"
-        }
-      ]
+      "n_changed_openings_total": 5,
+      "n_signed_without_verified": 0,
+      "n_signed_without_possible": 21,
+      "verified_absent_deals": []
     },
     {
       "id": "clause.student_responsibilities",
@@ -4001,11 +3654,11 @@
           ]
         }
       },
-      "n_deals": 34,
+      "n_deals": 30,
       "first_signed": "2023-05",
       "last_signed": "2026-05",
       "n_signed_standard": 6,
-      "n_opened_standard": 4,
+      "n_opened_standard": 3,
       "n_kept_standard": 3,
       "standard_history": {
         "forms": [
@@ -4041,11 +3694,7 @@
             "ref": {
               "document_id": "deal-05",
               "version": 1,
-              "clause_path": "6.4",
-              "char_span": [
-                6126,
-                6412
-              ]
+              "clause_path": "6.4, 6.6, 8, 8.1, 8.2, 8.3, 8.5, 8.6"
             }
           },
           {
@@ -4075,17 +3724,13 @@
             "parts": [
               {
                 "part_id": "ad33a352",
-                "text": "2.4 Orientation. All Students assigned by the Institution to the Facility shall be required to complete the Facility's training and adhere to the Facility rules, regulations, policies and procedures. Failure to do so shall be grounds for Students' immediate removal from participation in the Program.\n2.6 Student Access to the Facility and Clients. The Facility shall permit Students' access to any and all areas of the Facility as reasonably required to support Students' clinical development and as permitted under applicable law. The Facility reserves the right to refuse access to any Student who does not meet, in the Facility's reasonable determination, its standards for safety, health or proper conduct.\nSTUDENTS' RESPONSIBILITIES. The Institution and the Facility shall instruct Students regarding Students' responsibilities associated with the Program at the Facility. These responsibilities shall include the following:\n\n4.1 Conduct. Student shall, at all times while on the Facility premises, conduct himself or herself in a professional manner. Student shall refrain from the improper use of alcohol or drugs, and shall not carry any firearms or other weapons while on the Facility premises. Student shall not record, photograph, post on social media or otherwise image events on-site at the Facility without express written permission from the Facility. Student shall abide by all policies, rules and regulations established by the Facility and the Institution.\n4.2 Timeliness. Student shall report to the Facility at the assigned place and time. Student shall immediately inform the Facility and the Institution of Student's inability to report to the Facility as assigned.\n4.3 Uniform and Identification. Student shall wear the uniform or other clothing as directed by the Facility. Student shall display proper identification as directed by the Facility.\n4.5 Personal Expenses. While at the Facility, Student shall be responsible for Student's personal expenses such as meals, travel, medical care and incidentals.\n4.6 Evaluation of Clinical Experience. Student shall, upon request of the Institution or the Facility, provide a candid evaluation of the clinical experience at the Facility including, without limitation, preparation for the on-site experience, orientation to the Facility and experience and supervision at the Facility.\n4.7 Confidentiality and Non-Disclosure. Student will be asked to sign and comply with the Student Confidentiality and Non-Disclosure Agreement, attached hereto as Exhibit A."
+                "text": "2.4. Orientation. All Students assigned by the Institution to the Facility shall be required to complete the Facility's training and adhere to the Facility rules, regulations, policies and procedures. Failure to do so shall be grounds for Students' immediate removal from participation in the Program.\n2.6. Student Access to the Facility and Clients. The Facility shall permit Students' access to any and all areas of the Facility as reasonably required to support Students' clinical development and as permitted under applicable law. The Facility reserves the right to refuse access to any Student who does not meet, in the Facility's reasonable determination, its standards for safety, health or proper conduct.\nSTUDENTS' RESPONSIBILITIES. The Institution and the Facility shall instruct Students regarding Students' responsibilities associated with the Program at the Facility. These responsibilities shall include the following:\n\n4.1. Conduct. Student shall, at all times while on the Facility premises, conduct himself or herself in a professional manner. Student shall refrain from the improper use of alcohol or drugs, and shall not carry any firearms or other weapons while on the Facility premises. Student shall not record, photograph, post on social media or otherwise image events on-site at the Facility without express written permission from the Facility. Student shall abide by all policies, rules and regulations established by the Facility and the Institution.\n4.2. Timeliness. Student shall report to the Facility at the assigned place and time. Student shall immediately inform the Facility and the Institution of Student's inability to report to the Facility as assigned.\n4.3. Uniform and Identification. Student shall wear the uniform or other clothing as directed by the Facility. Student shall display proper identification as directed by the Facility.\n4.5. Personal Expenses. While at the Facility, Student shall be responsible for Student's personal expenses such as meals, travel, medical care and incidentals.\n4.6. Evaluation of Clinical Experience. Student shall, upon request of the Institution or the Facility, provide a candid evaluation of the clinical experience at the Facility including, without limitation, preparation for the on-site experience, orientation to the Facility and experience and supervision at the Facility.\n4.7. Confidentiality and Non-Disclosure. Student will be asked to sign and comply with the Student Confidentiality and Non-Disclosure Agreement, attached hereto as Exhibit A."
               }
             ],
             "ref": {
-              "document_id": "deal-22",
+              "document_id": "deal-32",
               "version": 4,
-              "clause_path": "6.4",
-              "char_span": [
-                4885,
-                5185
-              ]
+              "clause_path": "6.4, 6.6, 8, 8.1, 8.2, 8.3, 8.5, 8.6, 8.7"
             }
           },
           {
@@ -4121,11 +3766,7 @@
             "ref": {
               "document_id": "deal-14",
               "version": 2,
-              "clause_path": "6.4",
-              "char_span": [
-                6135,
-                6420
-              ]
+              "clause_path": "6.4, 6.6, 8, 8.1, 8.2, 8.3, 8.5, 8.6, 8.7"
             }
           }
         ],
@@ -4163,11 +3804,7 @@
           "ref": {
             "document_id": "deal-12",
             "version": 3,
-            "clause_path": "7.4",
-            "char_span": [
-              6059,
-              6344
-            ]
+            "clause_path": "7.4, 7.6, 9, 9.1, 9.2, 9.3, 9.5, 9.6"
           },
           "precedent_ids": [
             "prec.0ab43258f191a71f",
@@ -4181,30 +3818,30 @@
       ],
       "refused_asks": [
         {
-          "text": "a. The student is expected to meet the requirements of the placement experience as established by the Department and the Facility.",
+          "text": "a. To orient the student to the administrative policies, rules, standards, schedules, and practices of the Site.",
           "n_deals": 1,
-          "first_signed": "2025-04",
-          "last_signed": "2025-04",
+          "first_signed": "2025-09",
+          "last_signed": "2025-09",
           "label": "different_concept",
           "part_map": [
             "x-"
           ],
           "additions": [
-            "+"
+            "0"
           ],
           "reason": "The candidate contains no right for Exos to expel a Student and addresses other student-related matters instead.",
           "settled": "agreed",
           "ref": {
-            "document_id": "deal-43",
+            "document_id": "deal-44",
             "version": 1,
             "clause_path": "8.1",
             "char_span": [
-              4715,
-              4845
+              7569,
+              7681
             ]
           },
           "precedent_ids": [
-            "prec.864aa6b513a733b2"
+            "prec.32be5e0d01f0fdaa"
           ]
         }
       ],
@@ -4230,11 +3867,7 @@
           "ref": {
             "document_id": "deal-01",
             "version": 1,
-            "clause_path": "12",
-            "char_span": [
-              5302,
-              5601
-            ]
+            "clause_path": "12, 13.s1, 22, 23, 24, 26, 27"
           },
           "precedent_ids": [
             "prec.2e42df508d7b14ab",
@@ -4243,17 +3876,11 @@
         }
       ],
       "n_variants_total": 12,
-      "n_refused_total": 22,
-      "n_changed_openings_total": 7,
-      "n_signed_without_verified": 1,
-      "n_signed_without_possible": 12,
-      "verified_absent_deals": [
-        {
-          "document_id": "deal-31",
-          "signed_on": "2025-04",
-          "absence_id": "abs.660a680cf2f4f51c"
-        }
-      ]
+      "n_refused_total": 7,
+      "n_changed_openings_total": 5,
+      "n_signed_without_verified": 0,
+      "n_signed_without_possible": 13,
+      "verified_absent_deals": []
     },
     {
       "id": "clause.supervision_evaluation",
@@ -4276,7 +3903,7 @@
           ]
         }
       },
-      "n_deals": 43,
+      "n_deals": 42,
       "first_signed": "2023-05",
       "last_signed": "2026-05",
       "n_signed_standard": 1,
@@ -4314,11 +3941,7 @@
             "ref": {
               "document_id": "deal-05",
               "version": 1,
-              "clause_path": "5.5",
-              "char_span": [
-                3915,
-                4250
-              ]
+              "clause_path": "5.5, 6.3, 6.5, 7.1"
             }
           },
           {
@@ -4345,27 +3968,23 @@
             "parts": [
               {
                 "part_id": "972eacab",
-                "text": "1.5 Educational Coordinator. The Institution shall appoint a faculty member to serve as \"Educational Coordinator\" for the Program, and shall communicate his or her name, title and telephone number to the Facility. The Educational Coordinator shall be responsible for overall management of Students' educational experiences with the Program.\n2.3 Site Coordinator. The Facility shall appoint an employee to serve as a \"Site Coordinator\" at the site for the Program and shall communicate his or her name, title and telephone number to the Institution. The Site Coordinator shall be responsible for overall management of the experience at the Facility.\n2.5 Qualified Supervision. The Facility shall provide supervision of Students, including but not limited to, planning and coordinating Students' activities in connection with the Program's objectives.\n3.1 Supervision and Evaluation of Students. The Institution and the Facility shall, in good faith, work cooperatively to assure adequate supervision and evaluation of Students while Students are on-site at the Facility. Both parties shall reinforce with Students: (i) the seriousness of the service being performed at the Facility, including Student's impact upon the well-being of the Facility's clients; (ii) the importance of abiding by the Facility's rules and regulations; and (iii)\nthe confidentiality of the Facility client's identities and personal information. The Institution shall, if the Facility so desires, assure prompt feedback to the Facility regarding Students' evaluation of the clinical experience at the Facility. The Facility shall provide feedback to the Institution regarding Students' performance at the Facility."
+                "text": "1.5. Educational Coordinator. The Institution shall appoint a faculty member to serve as “ Educational Coordinator ” for the Program, and shall communicate his or her name, title and telephone number to the Facility. The Educational Coordinator shall be responsible for overall management of Students’ educational experiences with the Program.\n2.3. Site Coordinator. The Facility shall appoint an employee to serve as a “ Site Coordinator ” at the site for the Program and shall communicate his or her name, title and telephone number to the Institution. The Site Coordinator shall be responsible for overall management of the experience at the Facility.\n2.5. Qualified Supervision. The Facility shall provide supervision of Students, including but not limited to, planning and coordinating Students’ activities in connection with the Program’s objectives.\n3.1. Supervision and Evaluation of Students. The Institution and the Facility shall, in good faith, work cooperatively to assure adequate supervision and evaluation of Students while Students are on-site at the Facility. Both parties shall reinforce with Students: (i) the seriousness of the service being performed at the Facility, including Student’s impact upon the well-being of the Facility’s clients; (ii) the importance of abiding by the Facility's rules and regulations; and (iii) the confidentiality of the Facility client’s identities and personal information. The Institution shall, if the Facility so desires, assure prompt feedback to the Facility regarding Students’ evaluation of the clinical experience at the Facility. The Facility shall provide feedback to the Institution regarding Students’ performance at the Facility."
               }
             ],
             "ref": {
-              "document_id": "deal-22",
-              "version": 4,
-              "clause_path": "5.5",
-              "char_span": [
-                3010,
-                3350
-              ]
+              "document_id": "deal-21",
+              "version": 1,
+              "clause_path": "5.5, 6.3, 6.5, 7.1"
             }
           },
           {
-            "form": "reconstructed 2024-06 to 2026-05",
+            "form": "reconstructed 2024-06 to 2026-02",
             "basis": "reconstructed",
             "in_use_from": "2024-06",
-            "in_use_until": "2026-05",
+            "in_use_until": "2026-02",
             "in_use_basis": "deal_dates",
-            "n_opened": 8,
-            "n_kept": 6,
+            "n_opened": 5,
+            "n_kept": 3,
             "n_conceded": 2,
             "n_moved_to_current": 0,
             "unchanged": false,
@@ -4425,11 +4044,7 @@
           "ref": {
             "document_id": "deal-14",
             "version": 2,
-            "clause_path": "5.5",
-            "char_span": [
-              3935,
-              4267
-            ]
+            "clause_path": "5.5, 6.3, 6.5, 7.1"
           },
           "precedent_ids": [
             "prec.11809c527089c3d4",
@@ -4447,28 +4062,30 @@
       ],
       "refused_asks": [
         {
-          "text": "a. A clinical supervisor must have completed the the Institution Clinical Supervisor Training Course and any applicable on-going continuing education regarding supervisor requirements.",
+          "text": "a. In some instances, it may be desirable for the student to work with more than one Site supervisor.",
           "n_deals": 1,
-          "first_signed": "2025-04",
-          "last_signed": "2025-04",
-          "label": "less_protective",
+          "first_signed": "2025-09",
+          "last_signed": "2025-09",
+          "label": "different_concept",
           "part_map": [
-            "-"
+            "x-"
           ],
-          "additions": [],
-          "reason": "Training and practice-standard requirements on our supervisors replace the cooperative allocation.",
-          "settled": "agreed",
+          "additions": [
+            "0"
+          ],
+          "reason": "It is a non-binding remark about multiple site supervisors and allocates no supervision or evaluation responsibility.",
+          "settled": "adjudicated",
           "ref": {
-            "document_id": "deal-43",
+            "document_id": "deal-44",
             "version": 1,
-            "clause_path": "7.1",
+            "clause_path": "10.1",
             "char_span": [
-              3182,
-              3546
+              10087,
+              10188
             ]
           },
           "precedent_ids": [
-            "prec.b41fd9c75c626a6b"
+            "prec.3f9ba27a050a6722"
           ]
         }
       ],
@@ -4491,11 +4108,7 @@
           "ref": {
             "document_id": "deal-16",
             "version": 1,
-            "clause_path": "5.5",
-            "char_span": [
-              3908,
-              4246
-            ]
+            "clause_path": "5.5, 6.3, 6.5, 7.1"
           },
           "precedent_ids": [
             "prec.cccdaf677b091d75"
@@ -4503,24 +4116,18 @@
         }
       ],
       "n_variants_total": 18,
-      "n_refused_total": 35,
-      "n_changed_openings_total": 7,
-      "n_signed_without_verified": 2,
-      "n_signed_without_possible": 1,
-      "verified_absent_deals": [
-        {
-          "document_id": "deal-31",
-          "signed_on": "2025-04",
-          "absence_id": "abs.37983a6e92af97ce"
-        }
-      ]
+      "n_refused_total": 11,
+      "n_changed_openings_total": 4,
+      "n_signed_without_verified": 0,
+      "n_signed_without_possible": 3,
+      "verified_absent_deals": []
     },
     {
       "id": "clause.survival",
       "taxonomy_id": "survival",
       "title": "Survival & Effect of Termination",
       "our_standard": null,
-      "n_deals": 30,
+      "n_deals": 29,
       "first_signed": "2023-05",
       "last_signed": "2026-02",
       "n_signed_standard": 0,
@@ -4578,27 +4185,26 @@
       ],
       "refused_asks": [
         {
-          "text": "In the event that termination of the Agreement by the Facility pursuant to this Section 6.2 (B) disrupts the clinical experience of any Student(s) in the Program, the parties shall attempt, in good faith and using their best efforts, to continue Students’ clinical experiences, and this Agreement",
-          "n_deals": 2,
-          "first_signed": "2023-06",
-          "last_signed": "2023-10",
+          "text": "6.3. Effect of Termination. Upon termination of this Agreement, no party shall have any further obligation hereunder, except for the confidentiality and non-disclosure obligations referenced in Section 16, indemnification in Section 8, and obligations accruing under the terms of this Agreement prior",
+          "n_deals": 1,
+          "first_signed": "2024-07",
+          "last_signed": "2024-07",
           "label": null,
           "part_map": null,
           "additions": null,
           "reason": null,
           "settled": null,
           "ref": {
-            "document_id": "deal-02",
+            "document_id": "deal-07",
             "version": 2,
-            "clause_path": "10.2.2.s1",
+            "clause_path": "11.3",
             "char_span": [
-              13661,
-              14263
+              16481,
+              16809
             ]
           },
           "precedent_ids": [
-            "prec.78767f4827c55bf5",
-            "prec.b1719cb74036e4e4"
+            "prec.3d0e9c2b9a2cd2cf"
           ]
         }
       ],
@@ -4631,16 +4237,10 @@
       ],
       "n_variants_total": 9,
       "n_refused_total": 2,
-      "n_changed_openings_total": 6,
-      "n_signed_without_verified": 9,
-      "n_signed_without_possible": 5,
-      "verified_absent_deals": [
-        {
-          "document_id": "deal-25",
-          "signed_on": "2026-05",
-          "absence_id": "abs.41d8393b4130ff31"
-        }
-      ]
+      "n_changed_openings_total": 5,
+      "n_signed_without_verified": 0,
+      "n_signed_without_possible": 14,
+      "verified_absent_deals": []
     },
     {
       "id": "clause.term",
@@ -4663,7 +4263,7 @@
           ]
         }
       },
-      "n_deals": 39,
+      "n_deals": 36,
       "first_signed": "2023-05",
       "last_signed": "2026-05",
       "n_signed_standard": 0,
@@ -4672,14 +4272,14 @@
       "standard_history": {
         "forms": [
           {
-            "form": "reconstructed 2024-06 to 2026-05",
+            "form": "reconstructed 2024-06 to 2026-02",
             "basis": "reconstructed",
             "in_use_from": "2024-06",
-            "in_use_until": "2026-05",
+            "in_use_until": "2026-02",
             "in_use_basis": "deal_dates",
-            "n_opened": 5,
+            "n_opened": 4,
             "n_kept": 4,
-            "n_conceded": 1,
+            "n_conceded": 0,
             "n_moved_to_current": 0,
             "unchanged": false,
             "label": "less_protective",
@@ -4819,8 +4419,8 @@
         }
       ],
       "n_variants_total": 16,
-      "n_refused_total": 9,
-      "n_changed_openings_total": 4,
+      "n_refused_total": 3,
+      "n_changed_openings_total": 3,
       "n_signed_without_verified": 0,
       "n_signed_without_possible": 8,
       "verified_absent_deals": []
@@ -4846,19 +4446,19 @@
           ]
         }
       },
-      "n_deals": 31,
+      "n_deals": 30,
       "first_signed": "2023-05",
       "last_signed": "2026-05",
       "n_signed_standard": 4,
-      "n_opened_standard": 2,
+      "n_opened_standard": 1,
       "n_kept_standard": 1,
       "standard_history": {
         "forms": [
           {
-            "form": "reconstructed 2024-06 to 2026-05",
+            "form": "reconstructed 2024-06 to 2026-02",
             "basis": "reconstructed",
             "in_use_from": "2024-06",
-            "in_use_until": "2026-05",
+            "in_use_until": "2026-02",
             "in_use_basis": "deal_dates",
             "n_opened": 2,
             "n_kept": 2,
@@ -4921,11 +4521,7 @@
           "ref": {
             "document_id": "deal-14",
             "version": 2,
-            "clause_path": "10.2.2",
-            "char_span": [
-              13354,
-              14941
-            ]
+            "clause_path": "10.2.2, 10.2.3"
           },
           "precedent_ids": [
             "prec.08211de8dceed439",
@@ -4991,11 +4587,7 @@
           "ref": {
             "document_id": "deal-03",
             "version": 1,
-            "clause_path": "10.2.2",
-            "char_span": [
-              14174,
-              15763
-            ]
+            "clause_path": "10.2.2, 10.2.3"
           },
           "precedent_ids": [
             "prec.08211de8dceed439",
@@ -5015,15 +4607,9 @@
       "n_variants_total": 12,
       "n_refused_total": 5,
       "n_changed_openings_total": 7,
-      "n_signed_without_verified": 2,
-      "n_signed_without_possible": 11,
-      "verified_absent_deals": [
-        {
-          "document_id": "deal-31",
-          "signed_on": "2025-04",
-          "absence_id": "abs.1980eb52526acf4d"
-        }
-      ]
+      "n_signed_without_verified": 0,
+      "n_signed_without_possible": 13,
+      "verified_absent_deals": []
     },
     {
       "id": "clause.termination_convenience",
@@ -5046,11 +4632,11 @@
           ]
         }
       },
-      "n_deals": 32,
+      "n_deals": 30,
       "first_signed": "2023-05",
       "last_signed": "2026-05",
       "n_signed_standard": 8,
-      "n_opened_standard": 6,
+      "n_opened_standard": 5,
       "n_kept_standard": 5,
       "standard_history": {
         "forms": [
@@ -5143,28 +4729,30 @@
       ],
       "refused_asks": [
         {
-          "text": "The parties may terminate this Agreement for any reason upon sixty (60) days written notice. Unless otherwise agreed by the parties, students assigned to the Clinical Site shall be permitted to complete their rotations pursuant to the terms and conditions of this Agreement.",
+          "text": "This AGREEMENT may be terminated by either party giving sixty day’s notice in writing to the other party by certified mail at the addresses hereafter set forth.",
           "n_deals": 1,
-          "first_signed": "2025-08",
-          "last_signed": "2025-08",
+          "first_signed": "2026-05",
+          "last_signed": "2026-05",
           "label": "less_protective",
           "part_map": [
             "-"
           ],
-          "additions": [],
+          "additions": [
+            "0"
+          ],
           "reason": "Either party may terminate at will on 60 days' notice instead of only by mutual agreement.",
           "settled": "adjudicated",
           "ref": {
-            "document_id": "deal-29",
+            "document_id": "deal-34",
             "version": 1,
-            "clause_path": "7.2.s2",
+            "clause_path": "6.2",
             "char_span": [
-              12015,
-              12289
+              9482,
+              9826
             ]
           },
           "precedent_ids": [
-            "prec.160f85866d9f5120"
+            "prec.21f595b2c36481cf"
           ]
         }
       ],
@@ -5196,17 +4784,11 @@
         }
       ],
       "n_variants_total": 4,
-      "n_refused_total": 2,
+      "n_refused_total": 1,
       "n_changed_openings_total": 2,
-      "n_signed_without_verified": 10,
-      "n_signed_without_possible": 3,
-      "verified_absent_deals": [
-        {
-          "document_id": "deal-25",
-          "signed_on": "2026-05",
-          "absence_id": "abs.d69544e6b9763e8f"
-        }
-      ]
+      "n_signed_without_verified": 0,
+      "n_signed_without_possible": 13,
+      "verified_absent_deals": []
     }
   ],
   "uncovered_clause_types": []
